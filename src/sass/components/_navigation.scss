@@ -1,0 +1,28 @@
+.nav-link {
+  color: $color-primary;
+  margin-right: 74px;
+  @include font($size: 1.6rem, $height: 140%, $weight: 400);
+  &:active {
+    @include font($size: 1.6rem, $height: 140%, $weight: 600);
+    color: $color-primary;
+  }
+  &:hover {
+    @include font($size: 1.6rem, $height: 140%, $weight: 700);
+    color: $color-primary;
+  }
+}
+.nav-link__contact {
+  background-color: $primary-blue;
+  color: $color-white;
+  margin-right: 0;
+  &:active {
+    color: $color-white;
+  }
+  &:hover {
+    color: $color-white;
+  }
+}
+
+.menu-icon {
+  color: #333333;
+}

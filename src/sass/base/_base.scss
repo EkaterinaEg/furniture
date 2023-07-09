@@ -1,0 +1,15 @@
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+.page {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  color: $color-primary;
+  background-color: $background-color;
+  @extend %font-prim;
+  @include font($size: 1.5rem, $height: 2.4rem, $weight: normal);
+}
+h1 {
+  @include font($size: 7.2rem, $height: 140%, $weight: 700);
+}
