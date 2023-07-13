@@ -1,0 +1,23 @@
+.service {
+  margin-bottom: 160px;
+}
+.main__service-block {
+  margin-bottom: 100px;
+}
+.service__description {
+  @include font($size: 1.8rem, $weight: 400);
+  letter-spacing: 0.03em;
+  color: $color-light;
+  margin-bottom: 88px;
+  max-width: 491px;
+}
+.service__list {
+  @include font($size: 2.4rem, $weight: 600);
+  letter-spacing: 0.03em;
+  background: $color-white;
+  max-width: 883px;
+  width: 100%;
+}
+.service__image {
+  width: 89%;
+}

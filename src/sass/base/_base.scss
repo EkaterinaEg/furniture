@@ -8,8 +8,59 @@ html {
   color: $color-primary;
   background-color: $background-color;
   @extend %font-prim;
-  @include font($size: 1.5rem, $height: 2.4rem, $weight: normal);
+  @include font($size: 1.5rem, $weight: normal);
 }
 h1 {
-  @include font($size: 7.2rem, $height: 140%, $weight: 700);
+  @include font($size: 7.2rem, $weight: 700);
+  letter-spacing: 0.03em;
+}
+h2 {
+  @include font($size: 5.6rem, $weight: 700);
+  letter-spacing: 0.03em;
+}
+h3 {
+  @include font($size: 3.6rem, $weight: 600);
+  letter-spacing: 0.03em;
+}
+h4 {
+  @include font($size: 1.8rem, $weight: 400);
+  letter-spacing: 0.03em;
+  color: $color-light;
+}
+h5 {
+  @include font($size: 1.6rem, $weight: 500);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/src/Assets/fonts/Poppins-Bold.woff2") format("woff2"),
+    url("/src/Assets/fonts/Poppins-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/src/Assets/fonts/Poppins-Medium.woff2") format("woff2"),
+    url("/src/Assets/fonts/Poppins-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/src/Assets/fonts/Poppins-SemiBold.woff2") format("woff2"),
+    url("/src/Assets/fonts/Poppins-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/src/Assets/fonts/Poppins-Regular.woff2") format("woff2"),
+    url("/src/Assets/fonts/Poppins-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }

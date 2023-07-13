@@ -1,0 +1,12 @@
+.button {
+  @include font($size: 1.4rem, $weight: 500);
+  color: $color-primary;
+  background: $color-white;
+  border: 1px solid $color-primary;
+  padding: 14px 32px;
+  max-width: 162px;
+}
+.button_colored {
+  color: $color-white;
+  background: $primary-blue;
+}

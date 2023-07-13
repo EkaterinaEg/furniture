@@ -1,0 +1,21 @@
+.product {
+  margin-bottom: 163px;
+}
+
+.item__name {
+  @include font($size: 1.8rem, $weight: 400);
+  //   line-height: 1.8rem;
+}
+.item__number,
+.item__name_text {
+  @include font($size: 3.2rem, $weight: 600);
+}
+.theme__item {
+  margin-bottom: 24px;
+}
+.item__name {
+  margin-bottom: 43px;
+}
+.item__title {
+  margin-bottom: 73px;
+}

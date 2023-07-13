@@ -9,8 +9,25 @@
 @import "./components/navigation";
 @import "./components/promo-info";
 @import "./components/divider";
+@import "./components/button";
+@import "./components/quote-window";
+@import "./components/page-titles";
 
 @import "./layout/header";
 @import "./layout/home";
-@import "./layout/home";
 @import "./layout/about";
+@import "./layout/service";
+@import "./layout/product";
+@import "./layout/material";
+@import "./layout/contact";
+@import "./layout/footer";
+
+// About page
+@import "./layout/about_about";
+@import "./layout/achievements";
+@import "./layout/service_about";
+
+@import "./components/card";
+
+// Our team
+@import "./layout/designer";

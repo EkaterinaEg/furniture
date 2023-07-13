@@ -443,7 +443,6 @@ html {
   font-size: 1.5rem;
   font-style: normal;
   font-weight: normal;
-  line-height: 2.4rem;
   font-display: swap;
 }
 
@@ -451,55 +450,118 @@ h1 {
   font-size: 7.2rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 140%;
   font-display: swap;
+  letter-spacing: 0.03em;
 }
 
+h2 {
+  font-size: 5.6rem;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  letter-spacing: 0.03em;
+}
+
+h3 {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  letter-spacing: 0.03em;
+}
+
+h4 {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  letter-spacing: 0.03em;
+  color: #9c9c9c;
+}
+
+h5 {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/src/Assets/fonts/Poppins-Bold.woff2") format("woff2"), url("/src/Assets/fonts/Poppins-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/src/Assets/fonts/Poppins-Medium.woff2") format("woff2"), url("/src/Assets/fonts/Poppins-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/src/Assets/fonts/Poppins-SemiBold.woff2") format("woff2"), url("/src/Assets/fonts/Poppins-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/src/Assets/fonts/Poppins-Regular.woff2") format("woff2"), url("/src/Assets/fonts/Poppins-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 .page__container {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
 }
 
-.nav-link {
+.navbar .nav-item .nav-link {
   color: #333333;
-  margin-right: 74px;
   font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 140%;
   font-display: swap;
 }
-.nav-link:active {
+.navbar .nav-item .nav-link:active {
   font-size: 1.6rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 140%;
   font-display: swap;
-  color: #333333;
 }
-.nav-link:hover {
+.navbar .nav-item .nav-link:hover {
   font-size: 1.6rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 140%;
   font-display: swap;
   color: #333333;
 }
+.navbar .nav-item .nav-link:visited {
+  color: #333333;
+}
 
-.nav-link__contact {
+.navbar .nav-item .nav-link__contact {
   background-color: #2c3878;
   color: #ffffff;
   margin-right: 0;
 }
-.nav-link__contact:active {
+.navbar .nav-item .nav-link__contact:active {
   color: #ffffff;
 }
-.nav-link__contact:hover {
+.navbar .nav-item .nav-link__contact:hover {
+  color: #ffffff;
+}
+.navbar .nav-item .nav-link__contact:visited {
   color: #ffffff;
 }
 
-.menu-icon {
+.navbar .navbar-toggler-icon {
   color: #333333;
 }
 
@@ -521,6 +583,69 @@ h1 {
   font-size: 16px;
 }
 
+.block-divider {
+  column-gap: 17px;
+}
+
+.divider__line {
+  height: 2px;
+  text-align: center;
+}
+
+.divider__name {
+  margin-bottom: 0;
+}
+
+.button {
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  color: #333333;
+  background: #ffffff;
+  border: 1px solid #333333;
+  padding: 14px 32px;
+  max-width: 162px;
+}
+
+.button_colored {
+  color: #ffffff;
+  background: #2c3878;
+}
+
+.quote-window__author {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  color: #9c9c9c;
+  line-height: 160%;
+}
+
+.author__name {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  color: #000000;
+  padding-right: 50px;
+}
+
+.quote-window {
+  bottom: -170px;
+  right: 50px;
+  filter: drop-shadow(10px 10px 40px rgba(0, 0, 0, 0.05));
+  background-color: #ffffff;
+}
+
+.title {
+  margin-bottom: 36px;
+}
+
+.subtitle {
+  margin-bottom: 86px;
+}
+
 .page__header {
   background-color: #ffffff;
   margin-top: 40px;
@@ -536,18 +661,180 @@ h1 {
   right: 0%;
 }
 
-.home {
-  margin-top: 105px;
-  margin-bottom: 160px;
-}
-
-.home__line {
-  top: 4%;
-  right: 0%;
-}
-
 .about {
   margin-bottom: 160px;
+}
+
+.about__quote {
+  margin-bottom: 60px;
+}
+
+.decsription__text {
+  max-width: 223px;
+}
+
+.text__info {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  color: #9c9c9c;
+  margin-bottom: 40px;
+}
+
+.service {
+  margin-bottom: 160px;
+}
+
+.main__service-block {
+  margin-bottom: 100px;
+}
+
+.service__description {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  letter-spacing: 0.03em;
+  color: #9c9c9c;
+  margin-bottom: 88px;
+  max-width: 491px;
+}
+
+.service__list {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  letter-spacing: 0.03em;
+  background: #ffffff;
+  max-width: 883px;
+  width: 100%;
+}
+
+.service__image {
+  width: 89%;
+}
+
+.product {
+  margin-bottom: 163px;
+}
+
+.item__name {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+.item__number,
+.item__name_text {
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+.theme__item {
+  margin-bottom: 24px;
+}
+
+.item__name {
+  margin-bottom: 43px;
+}
+
+.item__title {
+  margin-bottom: 73px;
+}
+
+.material {
+  margin-bottom: 120px;
+}
+
+.material__divider {
+  margin-top: 47px;
+  max-width: 48%;
+}
+
+.material__description {
+  max-width: 74%;
+}
+
+.contact {
+  margin-bottom: 80px;
+  background: #2c3878;
+  padding: 41px 0;
+}
+
+.contact__motto {
+  color: #ffffff;
+}
+
+.contact__text {
+  color: #d9d9d9;
+}
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid #000000;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  color: #d9d9d9;
+  margin-bottom: 40px;
+}
+
+.form-label {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+.footer__social {
+  margin-bottom: 84px;
+}
+
+.social__list__link {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.about_about {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.achievement {
+  margin-bottom: 112px;
+}
+
+.achievement__title {
+  margin-bottom: 56px;
+}
+
+.service_about {
+  margin-bottom: 100px;
+}
+
+.card__img {
+  width: 63px;
+  height: 63px;
+}
+
+.card-title {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+.card-text {
+  letter-spacing: 0;
+}
+
+.designer {
+  margin-bottom: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */

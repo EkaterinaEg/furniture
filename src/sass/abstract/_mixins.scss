@@ -1,7 +1,6 @@
-@mixin font($size, $height, $weight, $style: normal, $font-display: swap) {
+@mixin font($size, $weight, $style: normal, $font-display: swap) {
   font-size: $size;
   font-style: $style;
   font-weight: $weight;
-  line-height: $height;
   font-display: $font-display;
 }

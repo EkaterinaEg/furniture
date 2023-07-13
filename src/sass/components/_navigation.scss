@@ -1,17 +1,19 @@
-.nav-link {
+.navbar .nav-item .nav-link {
   color: $color-primary;
-  margin-right: 74px;
-  @include font($size: 1.6rem, $height: 140%, $weight: 400);
+  // margin-right: 74px;
+  @include font($size: 1.6rem, $weight: 400);
   &:active {
-    @include font($size: 1.6rem, $height: 140%, $weight: 600);
-    color: $color-primary;
+    @include font($size: 1.6rem, $weight: 600);
   }
   &:hover {
-    @include font($size: 1.6rem, $height: 140%, $weight: 700);
+    @include font($size: 1.6rem, $weight: 700);
+    color: $color-primary;
+  }
+  &:visited {
     color: $color-primary;
   }
 }
-.nav-link__contact {
+.navbar .nav-item .nav-link__contact {
   background-color: $primary-blue;
   color: $color-white;
   margin-right: 0;
@@ -21,8 +23,10 @@
   &:hover {
     color: $color-white;
   }
+  &:visited {
+    color: $color-white;
+  }
 }
-
-.menu-icon {
+.navbar .navbar-toggler-icon {
   color: #333333;
 }

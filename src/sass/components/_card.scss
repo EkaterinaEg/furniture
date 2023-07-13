@@ -1,0 +1,10 @@
+.card__img {
+  width: 63px;
+  height: 63px;
+}
+.card-title {
+  @include font($size: 2.4rem, $weight: 600);
+}
+.card-text {
+  letter-spacing: 0;
+}

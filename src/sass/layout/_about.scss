@@ -1,3 +1,15 @@
 .about {
   margin-bottom: 160px;
 }
+.about__quote {
+  margin-bottom: 60px;
+}
+
+.decsription__text {
+  max-width: 223px;
+}
+.text__info {
+  @include font($size: 1.8rem, $weight: 400);
+  color: $color-light;
+  margin-bottom: 40px;
+}
