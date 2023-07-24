@@ -1,15 +1,23 @@
 .about {
-  margin-bottom: 160px;
+  margin-bottom: 100px;
 }
 .about__quote {
   margin-bottom: 60px;
 }
 
 .decsription__text {
-  max-width: 223px;
+  max-width: 50%;
 }
 .text__info {
   @include font($size: 1.8rem, $weight: 400);
   color: $color-light;
   margin-bottom: 40px;
+}
+
+.main .home .home__title {
+  margin-bottom: 46px;
+  // @include media-extraLarge {
+  //   @include font($size: 3.6rem, $weight: 600);
+  //   letter-spacing: 0.03em;
+  // }
 }

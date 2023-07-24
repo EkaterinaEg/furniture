@@ -11,10 +11,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/src/sass/style.css" />
     <title>Furniture Agency</title>
   </head>
@@ -25,9 +22,8 @@
           <div class="container">
             <a class="navbar-brand" href="#">
               <img
-                src="./src/Assets/img/logo.png"
+                src="/src/Assets/img/logo.png"
                 alt="Logo"
-                style="width: 126px"
               />
             </a>
             <button
@@ -44,12 +40,11 @@
             <div class="collapse navbar-collapse" id="navmenu">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item nav-item__home me-md-5">
-                  <a
-                    class="nav-link nav-link__home active"
-                    aria-current="page"
-                    aria-current="true"
+                  <as
+                    class="nav-link nav-link__home"
+        
                     href="#"
-                    >Home</a
+                    >Home</as
                   >
                 </li>
                 <li class="nav-item nav-item__about me-5">
@@ -74,8 +69,8 @@
         <article class="main__home home">
           <div class="page__container position-relative">
           <div class="container">
-            <div class="d-flex flex-column align-items-start justify-content-around">
-              <h1 class="home__title mb-5">Design your <br>interior with high <br>quality.</h1>
+            <div class="d-flex flex-column align-items-md-start align-items-center justify-content-around">
+              <h1 class="home__title">Design your <br>interior with high <br>quality.</h1>
               <img class="home__line w-xl-683 position-absolute d-none d-xl-block" src="./src/Assets/img/Line.png"
               alt="image of line"
             />
@@ -83,7 +78,7 @@
                 src="./src/Assets/img/Mask group.jpg"
                 alt="picture of kitchen"
               />
-              <div class="promo-info d-flex flex-column justify-content-center align-items-center position-absolute">
+              <div class="promo-info d-flex flex-column justify-content-center align-items-center position-absolute top-50 right-0 translate-middle-y">
                 <div class="promo-info__projects projects text-center align-middle">
                   <span class="projects__numbers numbers">350+</span>
                   <p class="projects__description description">Project Completed</p>
@@ -109,18 +104,18 @@
                 <img class="divider__line d-none d-xl-block" src="./src/Assets/img/Line.png"
                 alt="image of line"/>
               </div>
-              <div class="about__quote__wrapper position-relative">
-                <blockquote class="about__quote ">
+              <div class="about__quote__wrapper d-flex flex-column align-items-md-start align-items-center position-relative">
+                <blockquote class="about__quote">
                   <h3>"We're one of the best furniture agency. Prioritizing customers and making purchases easy are the hallmarks of our agency."</h3>
                 </blockquote>
                 <figure class="description__quote-window quote-window position-absolute d-flex justify-content-center p-4 m-0">
-                  <img class="quote-window__image me-3" src="./src/Assets/img/CEO_photo.jpg" alt="photo of CEO"/>
+                  <img class="quote-window__image d-md-block d-none me-3" src="./src/Assets/img/CEO_photo.jpg" alt="photo of CEO"/>
                   <figcaption class="quote-window__author"><span class="author__name">Arga Danaan</span><br>CEO of Dananz</figcaption>
                 </figure>
               </div>
-              <div class="about__description d-flex justify-content-between align-items-center mb-5">
+              <div class="about__description d-flex flex-xl-row flex-column justify-content-between align-items-center text-align-sm-center gap-5 mb-5">
                 <img class="img-fluid description__image" src="./src/Assets/img/main_page_table.jpg" alt="picture of dining table and chairs"/>
-                <div class="decsription__text d-flex flex-column justify-content-center align-items-start">
+                <div class="decsription__text d-flex flex-column justify-content-center align-items-center align-items-xl-start">
                   <h4 class="text__info">Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere.</h4>
                   <a class="btn text__button button button_colored" href="#" role="button">Learn More</a>
                 </div>
@@ -133,10 +128,10 @@
             <div class="container">
             <div class="block-divider d-flex align-items-center mb-5">
               <h5 class="divider__name">Services</h5>
-              <img class="divider__line w-xl-529 d-none d-xl-block" src="./src/Assets/img/Line.png"
+              <img class="divider__line d-none d-xl-block" src="./src/Assets/img/Line.png"
               alt="image of line"/>
             </div>
-            <h3 class="service__title mb-5">attractive furniture with the best quality.</h3>
+            <h3 class="service__title mb-5">Attractive furniture with the best quality.</h3>
             <h4 class="service__description">Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.</h4>
             <div class="wrapper position-relative">
             <ul class="service__list p-3 position-absolute top-0 start-0">
@@ -165,36 +160,36 @@
               alt="image of line"/>
             </div>
           <div class="container">
-          <div class="row product__themes">
-            <div class="theme__item item__title col-8"><h3>Choose your<br>product themes.</h3></div>
-            <div class="theme__item item__subtitle col-4 px-0"><h4>Find the theme you want. If our choice of theme is not what you want, you can customize it as you want.</h4></div>
-            <div class="theme__item item__number col-1">01</div>
-            <div class="theme__item item__name col-5"><span class="item__name_text">Vintage</span><br>the use of simple and limited elements to get the best effect or impression.</div>
-            <div class="theme__item item__icon text-end col-6"><a class="item__link" href="#"><img class="link__image" src="./src/Assets/img/arrow-right.svg" alt="arrow icon"></a></div>
-            <div class="theme__item item__number col-1">02</div>
-            <div class="theme__item item__name col-5"><span class="item__name_text">Minimalist</span><br>the use of simple and limited elements to get the best effect or impression.</div>
-            <div class="theme__item item__icon text-end col-6"><a class="item__link" href="#"><img class="link__image" src="./src/Assets/img/arrow-right.svg" alt="arrow icon"></a></div>
-            <div class="theme__item item__number col-1">03</div>
-            <div class="theme__item item__name col-5"><span class="item__name_text">Modern</span><br>the use of simple and limited elements to get the best effect or impression.</div>
-            <div class="theme__item item__icon text-end col-6"><a class="item__link" href="#"><img class="link__image" src="./src/Assets/img/arrow-right.svg" alt="arrow icon"></a></div>
-            <div class="theme__item item__number col-1">04</div>
-            <div class="theme__item item__name col-5"><span class="item__name_text">Transitional</span><br>the use of simple and limited elements to get the best effect or impression.</div>
-            <div class="theme__item item__icon text-end col-6"><a class="item__link" href="#"><img class="link__image" src="./src/Assets/img/arrow-right.svg" alt="arrow icon"></a></div>
-          </div>
+            <div class="row product__themes">
+            <div class="theme__item item__title col-md-8 col-sm-6"><h3>Choose your<br>product themes.</h3></div>
+            <div class="theme__item item__subtitle col-md-4 col-sm-6 px-0"><h4>Find the theme you want. If our choice of theme is not what you want, you can customize it as you want.</h4></div>
+            <div class="theme__item item__number col-md-1 col-sm-12 text-md-start text-center">01</div>
+            <div class="theme__item item__name col-md-5 col-sm-12 mb-5 text-md-start text-center"><span class="item__name_text">Vintage</span><br>the use of simple and limited elements to get the best effect or impression.</div>
+            <div class="theme__item item__icon col-md-6 col-sm-12 text-md-end text-center mb-5"><a class="item__link" href="#"><img class="link__image" src="./src/Assets/img/arrow-right.svg" alt="arrow icon"></a></div>
+            <div class="theme__item item__number col-md-1 col-sm-12 text-md-start text-center mb-5">02</div>
+            <div class="theme__item item__name col-md-5 col-sm-12 mb-5 text-md-start text-center"><span class="item__name_textr">Minimalist</span><br>the use of simple and limited elements to get the best effect or impression.</div>
+            <div class="theme__item item__icon col-md-6 col-sm-12 text-md-end text-center mb-5"><a class="item__link" href="#"><img class="link__image" src="./src/Assets/img/arrow-right.svg" alt="arrow icon"></a></div>
+            <div class="theme__item item__number col-md-1 col-sm-12 text-md-start text-center mb-5">03</div>
+            <div class="theme__item item__name col-md-5 col-sm-12 mb-5 text-md-start text-center"><span class="item__name_text">Modern</span><br>the use of simple and limited elements to get the best effect or impression.</div>
+            <div class="theme__item item__icon col-md-6 col-sm-12 text-md-end text-center mb-5"><a class="item__link" href="#"><img class="link__image" src="./src/Assets/img/arrow-right.svg" alt="arrow icon"></a></div>
+            <div class="theme__item item__number col-md-1 col-sm-12 text-md-start text-center mb-5">04</div>
+            <div class="theme__item item__name col-md-5 col-sm-12 mb-5 text-md-start text-center"><span class="item__name_text">Transitional</span><br>the use of simple and limited elements to get the best effect or impression.</div>
+            <div class="theme__item item__icon col-md-6 col-sm-12 text-md-end text-center mb-5"><a class="item__link" href="#"><img class="link__image" src="./src/Assets/img/arrow-right.svg" alt="arrow icon"></a></div>
+          </div> 
         </div>
       </div>
       </article>
       <article class="main__material material">
         <div class="page__container">
           <div class="container">
-            <div class="material__wrapper d-flex">
+            <div class="material__wrapper d-flex flex-column flex-md-row align-items-center">
               <div class="d-flex flex-column material__divider">
                 <div class="block-divider d-flex align-items-center mb-5">
                   <h5 class="divider__name">Material</h5>
                   <img class="divider__line w-xl-529 d-none d-xl-block" src="./src/Assets/img/Line.png"
                   alt="image of line"/>
                 </div>
-                <h3 class="material__title mb-4">choice of<br>materials for<br>quality furniture.</h3>
+                <h3 class="material__title mb-4">Choice of<br>materials for<br>quality furniture.</h3>
                 <h4 class="material__description mb-4">You can custom the material as desired. And our furniture uses the best materials and selected quality materials.</h4>
                 <a class="btn material__button button" href="#" role="button">See Materials</a>
               </div>
@@ -242,10 +237,10 @@
               <div class="col footer__social offset-9">
                 <div class="social__title col mb-4">Follow us On</div>
                 <div class="col social__list">
-                  <a class="social__list__link" href="https://www.facebook.com/"><img class="img-fluid me-5" src="/src/Assets/img/facebook.png" alt="facebook icon"/></a>
-                  <a class="social__list__link" href="https://www.instagram.com/"><img class="img-fluid me-5" src="/src/Assets/img/instagram.png" alt="instagram icon"/></a>
-                  <a class="social__list__link" href="https://www.tiktok.com/"><img class="img-fluid me-5" src="/src/Assets/img/tiktok.png" alt="tiktok icon"/></a>
-                  <a class="social__list__link" href="https://www.youtube.com/"><img class="img-fluid" src="/src/Assets/img/youtube.png" alt="youtube icon"/></a>
+                  <a class="social__list__link" href="https://www.facebook.com/"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                  <a class="social__list__link" href="https://www.instagram.com/"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                  <a class="social__list__link" href="https://www.tiktok.com/"><i class="bi-tiktok text-dark mx-1"></i></a>
+                  <a class="social__list__link" href="https://www.youtube.com/"><i class="bi bi-youtube text-dark mx-1"></i></a>
                 </div>
               </div>
           </div>

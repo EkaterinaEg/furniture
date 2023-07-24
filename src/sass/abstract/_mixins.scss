@@ -4,3 +4,14 @@
   font-weight: $weight;
   font-display: $font-display;
 }
+
+@mixin media-768 {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+@mixin media-extraLarge {
+  @media (max-width: 1200px) {
+    @content;
+  }
+}

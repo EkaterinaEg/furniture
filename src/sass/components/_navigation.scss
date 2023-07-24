@@ -1,15 +1,18 @@
-.navbar .nav-item .nav-link {
+.navbar-nav .nav-item .nav-link {
   color: $color-primary;
-  // margin-right: 74px;
   @include font($size: 1.6rem, $weight: 400);
+
   &:active {
     @include font($size: 1.6rem, $weight: 600);
   }
+
   &:hover {
     @include font($size: 1.6rem, $weight: 700);
     color: $color-primary;
   }
+
   &:visited {
+    @include font($size: 1.6rem, $weight: 600);
     color: $color-primary;
   }
 }
