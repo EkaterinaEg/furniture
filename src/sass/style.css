@@ -583,6 +583,8 @@ h5 {
   background-color: #2c3878;
   color: #ffffff;
   row-gap: 57px;
+  top: 120px;
+  right: 165px;
 }
 @media (max-width: 1200px) {
   .promo-info {

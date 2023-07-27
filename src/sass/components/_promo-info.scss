@@ -3,8 +3,8 @@
   background-color: $primary-blue;
   color: $color-white;
   row-gap: 57px;
-  // top: 120px;
-  // right: 165px;
+  top: 120px;
+  right: 165px;
   @include media-extraLarge {
     padding: 20px 28px 24px 28px;
   }
