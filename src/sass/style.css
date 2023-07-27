@@ -865,4 +865,17 @@ h5 {
   margin-bottom: 100px;
 }
 
+.location {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.location__contacts,
+.cities {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
 /*# sourceMappingURL=style.css.map */

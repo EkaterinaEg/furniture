@@ -1,0 +1,9 @@
+.location {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.location__contacts,
+.cities {
+  @include font($size: 2.4rem, $weight: 600);
+}
